@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="SmokeTest.BasicTests">
+        <methods>
+          <include name="beforeMethodGetWebSite"/>
+          <include name="closeBrowser"/>
+          <include name="searchBox"/>
+          <include name="dynamicOpenBrowser"/>
+        </methods>
+      </class> <!-- SmokeTest.BasicTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
